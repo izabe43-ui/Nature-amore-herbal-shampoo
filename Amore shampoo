@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nature's Amore – Herbal Care Shampoo | 100% Natural</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+:root{
+  --green:#1a5c35;--green2:#2d7a4f;--green3:#4caf77;--green4:#a8dbb8;
+  --gold:#c9a84c;--gold2:#e8c96a;--gold3:#f5e9c0;
+  --dark:#0a2018;--dark2:#0f2d1e;
+  --cream:#f7fdf9;--white:#ffffff;--text:#1a3025;--text2:#3d5a48;
+}
+body{font-family:'Inter',sans-serif;background:var(--cream);color:var(--text);overflow-x:hidden}
+
+/* NAVBAR */
+nav{position:fixed;top:0;width:100%;z-index:999;background:rgba(247,253,249,0.96);backdrop-filter:blur(16px);border-bottom:1px solid rgba(76,175,119,0.15);padding:0 20px;height:70px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 20px rgba(0,0,0,0.06)}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-logo-icon{width:38px;height:38px;background:linear-gradient(135deg,var(--green),var(--green3));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.1rem}
+.nav-logo-text{font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:700;color:var(--green)}
+.nav-menu{display:flex;gap:36px;list-style:none}
+.nav-menu a{text-decoration:none;font-size:0.82rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--text2);transition:color .3s}
+.nav-menu a:hover{color:var(--green)}
+.nav-btn{background:linear-gradient(135deg,var(--green),var(--green2));color:white;padding:11px 28px;border-radius:50px;text-decoration:none;font-size:0.8rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;transition:all .3s;box-shadow:0 4px 15px rgba(26,92,53,0.3)}
+.nav-btn:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(26,92,53,0.4)}
+
+/* HERO */
+.hero{min-height:100vh;background:linear-gradient(135deg,#f0faf4 0%,#e2f5ea 35%,#d0edda 70%,#c4e8d0 100%);display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:100px 80px 60px;gap:60px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top
